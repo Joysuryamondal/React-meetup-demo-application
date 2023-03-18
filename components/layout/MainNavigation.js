@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
 
+import mainNavigation from "./MainNavigation.module.css";
+// Here mainNavigation(object) name is up to me. Ja ecca dite parbo.
+// r MainNavigation.module.css er sob mainNavigation er property
+
 function MainNavigation() {
   return (
-    <header>
-      <div>React Meetups</div>
+    <header className={mainNavigation.header}>
+      <div className={mainNavigation.logo}>React Meetups</div>
       <nav>
         <ul>
           <li>
